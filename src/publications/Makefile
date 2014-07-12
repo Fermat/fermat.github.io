@@ -1,9 +1,10 @@
 PDFLATEX=pdflatex
 BIBTEX=bibtex
 
-all : publications.pdf
+all : publications.html
 
-
+publications.html : publications.tex publications.pdf
+	pandoc -o publications.html publications.tex
 publications.pdf : publications.tex 
 	$(PDFLATEX) publications.tex
 
