@@ -1,17 +1,19 @@
-\documentclass[11pt]{article}
-\usepackage[margin=3cm]{geometry}
+\documentclass{article}
+%\usepackage[margin=3cm]{geometry}
+\usepackage{fullpage}
 \usepackage{hyperref}
+\usepackage{comment}
 \begin{document}
 \begin{center}
 {\Large{\bfseries Peng Fu}}
 
 \
 
-Computer Science\\
-University of Dundee\\
-Dundee, Scotland \\
-Email: pfu@dundee.ac.uk\\
-Homepage: \url{http://staff.computing.dundee.ac.uk/pengfu/}
+%% Computer Science\\
+%% Heriot-Watt University\\
+%% Edinburgh, Scotland \\
+Email: peng-fu@uiowa.edu\\
+Homepage: \url{https://fermat.github.io/}
 
 \end{center}
 
@@ -36,34 +38,94 @@ Homepage: \url{http://staff.computing.dundee.ac.uk/pengfu/}
 
 \begin{itemize}
 \item Ph.D. Department of Computer Science, the University of Iowa, Iowa City, USA. August 2014. 
-  \item B.Eng. School of Computer Science, Huazhong University of Science and Technology, Wuhan, China. July 2009. %Accumulated grade: 84.6/100.
+  \item B.Eng. School of Computer Science, Huazhong University of Science and Technology, China. July~2009. %Accumulated grade: 84.6/100.
 \end{itemize}
 
-\section*{Position}
 
+\section*{Research Interests}
 \begin{itemize}
-\item Postdoctorial Research Assistant, University of Dundee, Dundee, Scotland. Oct 2014.
+\item Lambda calculus, type theory and their applications.
+\item Theorem proving and language-based verification. 
+\item Type systems for functional programming languages. 
+  
 \end{itemize}
 
-\section*{Research Areas}
-Lambda calculus, type theory, interactive theorem proving and functional programming language.
-\section*{Publications}
+\section*{Conference Publications}
 
+\begin{enumerate}
+
+\item \textbf{Proof Relevant Corecursive Resolution}. 
+
+  \textbf{Peng Fu}, Ekaterina Komendantskaya, Tom Schrijvers, Andrew Pond. International Symposium on Functional and Logic Programming, FLOPS 2016.
+\item \textbf{A Type-Theoretic Approach to Resolution}. 
+  
+  \textbf{Peng Fu}, Ekaterina Komendantskaya. International Symposium on Logic-Based Program Synthesis and Transformation, LOPSTR 2015.
+  \item \textbf{Self Types for Dependently Typed Lambda Encodings}. 
+    
+    \textbf{Peng Fu}, Aaron Stump. Joint 25th International Conference on Rewriting Techniques and Applications and 12th International Conference on Typed Lambda Calculi and Applications, RTA-TLCA 2014. 
+\end{enumerate}
+
+\section*{Journal and Workshop Publications}
+
+\begin{enumerate}
+%% \item \textbf{Operational Semantics of Resolution in Horn Clause Logic}. 
+  
+%%   \textbf{Peng Fu}, Ekaterina Komendantskaya. Formal Aspect of Computing, 2016. Journal Version of C2. 
+  
+\item \textbf{Efficiency of Lambda-Encodings in Total Type Theory}. 
+  
+  Aaron Stump, \textbf{Peng Fu}.  Journal of Functional Programming, 2016.
+
+  \item \textbf{A Framework for Internalizing Relations into Type Theory}. 
+
+    \textbf{Peng Fu}, Aaron Stump, Jeff Vaughan. International Workshop on Proof-Search in Axiomatic Theories and Type Theories, PSATTT 2011.
+
+\end{enumerate}  
+
+%% \section*{Current Works}
+%% \begin{itemize}
+  
+%% \item \textbf{Constructing Coinductive Proofs for Nonterminating Rewriting}. 
+  
+%%   Peng Fu, Ekaterina Komendantskaya. In submission.
+%% \end{itemize}
+
+\section*{Dissertation}
 \begin{itemize}
-\item \textit{Proof Relevant Corecursive Resolution}. Peng Fu, Ekaterina Komendantskaya, Tom Schrijvers, Andrew Pond. International Symposium on Functional and Logic Programming, FLOPS 2016.
-\item \textit{A Type-Theoretic Approach to Resolution}. Peng Fu, Ekaterina Komendantskaya. International Symposium on Logic-Based Program Synthesis and Transformation, LOPSTR 2015.
-  \item \textit{Self Types for Dependently Typed Lambda Encodings}. Peng Fu, Aaron Stump. RTA-TLCA 2014: Joint 25th International Conference on Rewriting Techniques and Applications and 12th International Conference on Typed Lambda Calculi and Applications. 
-  \item \textit{Equational Reasoning about Programs with General Recursion and Call-by-value Semantics}. Garrin Kimmell, Aaron Stump, Harley D. Eades III, Peng Fu, Tim Sheard, Stephanie Weirich, Chris Casinghino, Vilhelm Sjoberg, Nathan Collins, Ki Yung Ahn. Progress in Informatics, No. 10, March 2013, pages 19-46. Journal version of PLPV '12 paper. 
-\item \textit{Equational Reasoning about Programs with General Recursion and Call-by-value Semantics}. Garrin Kimmell, Aaron Stump, Harley D. Eades III, Peng Fu, Tim Sheard, Stephanie Weirich, Chris Casinghino, Vilhelm Sj\"oberg, Nathan Collins, Ki Yung Ahn. PLPV 2012. 
-\item \textit{Irrelevance, Heterogeneous Equality, and Call-by-value Dependent Type Systems}. Vilhelm Sj\"oberg,Chris Casinghino, Ki Yung Ahn, Nathan Collins, Harley D. Eades III, Peng Fu, Garrin Kimmell, Tim Sheard, Aaron Stump, Stephanie Weirich. MSFP 2012.
-\item \textit{A Framework for Internalizing Relations into Type Theory}. Peng Fu, Aaron Stump, Jeff Vaughan. PSATTT'11: International Workshop on Proof-Search in Axiomatic Theories and Type Theories (2011).
+\item Title: \textbf{Lambda Encodings in Type Theory}.  
+
+\item Summary: The dissertation explores the reasoning
+  of Scott-encoded programs using the comprehension principle.
+   
+\item Committee: Aaron Stump, Cesare Tinelli, Kasturi Varadarajan, Ted Herman, Douglas Jones.
+     
 \end{itemize}
 
-\section*{Projects}
+
+\section*{Research Projects}
 \begin{itemize}
-\item CoALP for type inference (2015 - ), PI: Ekaterina Komendantskaya. 
-\item Dissertation project: Gottlob System (December 2013 - 2014). A prototype system for verified programming and theorem proving. Source code available from:  \url{https://github.com/Fermat/Gottlob}
-\item The \textsc{Trellys} Project (2010 - 2013), PI: Aaron Stump, Tim Sheard, Stephanie Weirich. 
+\item \textbf{Functional Certification of Rewriting (FCR)}\footnote{Source code available from: \url{https://github.com/fermat/fcr}}. A prototype type checker for analyzing and proving the nontermination of term rewriting system. Main features: 
+  \begin{itemize}
+  \item The certification of nonterminating rewriting is reduced to type checking.      
+  \item The type checking algorithm is based on resolution with second-order matching.
+  \end{itemize}
+  \item \textbf{Corecursive Type Class}\footnote{Source code available from: \url{https://github.com/fermat/corecursive-type-class}}. A prototype interpreter and type checker that implements the type class mechanism based on corecursive resolution. Main features: %, which extends the standard method to handle the nonterminating type class inference. 
+    \begin{itemize}
+    \item It supports dictionary construction for nonterminating type class resolution. 
+     \item It uses goal directed automated proof construction to construct type class evidence.  
+       \item It provides a heuristic for generating intermediate lemma for
+         proof construction. 
+    \end{itemize}
+\item \textbf{The Gottlob System}\footnote{Source code available from:  \url{https://github.com/fermat/gottlob}}. A prototype interpreter for typed functional programming and theorem proving. Main features:
+  
+  \begin{itemize}
+  \item The functional programming fragment is equipped with Hindley-Miler type inference. The core language is based entirely on Scott encoding, without build-in data-type and pattern matching.
+     \item The theorem proving fragment can reason about the program with general recursion. 
+
+  \item It can automatically synthesize an induction principle from an algebraic data type declaration, induction principle is not primitive in Gottlob. 
+
+  \end{itemize}
+  %item The \textsc{Trellys} Project (2010 - 2013), PI: Aaron Stump, Tim Sheard, Stephanie Weirich. 
   % \begin{enumerate}
   % \item Implemented a simple type checker for a core language called SepCore. Source code (in Haskell) available from: 
     
@@ -75,16 +137,75 @@ Lambda calculus, type theory, interactive theorem proving and functional program
 
 \end{itemize}
 
-\section*{Teaching Experience}
+\section*{Academic Positions}
 
 \begin{itemize}
+ \item Postdoctoral Research Assistant, Heriot-Watt University, UK. March 2016 -- August 2016.
+\item Postdoctoral Research Assistant, University of Dundee, UK. October 2014 -- March 2016.
+
 \item Teaching Assistant,  ``Algorithm and AI'', 2015 Spring.  Computer Science, The University of Dundee.
-\item Teaching Assistant,  ``Programming Language Concepts'', 2013 Spring, 2014 Spring. Department of Computer Science, The University of Iowa.
-\item Teaching Assistant,  ``Object-Oriented Software Development '', 2013 Fall. Department of Computer Science, The University of Iowa.
+  \begin{itemize}
+  \item Taught basic functional programming in Haskell, the first Haskell class taught in University of Dundee. 
+  \item Delivered one lecture per week (total 13 lectures, class size: around 50). 
+  \item Ran one lab session per week.  
+  \item Developed class materials, homeworks and part of the final exam.  
+  \end{itemize}
+  
+\item Graduate Teaching Assistant,  ``Programming Language Concepts'', 2013 Spring, 2014 Spring. Department of Computer Science, The University of Iowa.
+  \begin{itemize}
+  \item Graded assignments (Class size: around 70 both times).
+  \item Ran weekly office hours. 
+  \end{itemize}
+  
+\item Graduate Teaching Assistant,  ``Object-Oriented Software Development '', 2013 Fall. Department of Computer Science, The University of Iowa.
+    \begin{itemize}
+  \item Graded assignments (Class size: around 70).  
+   \item Ran one lab session per week.  
+  \item Ran weekly office hours. 
+  \end{itemize}
+
 %% \item Research Assistant, 2010 spring - 2013 spring, TRELLYS project. Supervisor: Prof. Aaron Stump.
-  \item Teaching Assistant, ``Computer Networking'', 2009 Fall. Department of Computer Science, The University of Iowa.
+  \item Graduate Teaching Assistant, ``Computer Networking'', 2009 Fall. Department of Computer Science, The University of Iowa.
+      \begin{itemize}
+  \item Graded assignments (Class size: around 30).
+  \item Ran weekly office hours. 
+    \end{itemize}
+
+\end{itemize}
+\section*{Professional Service}
+\begin{itemize}
+\item External Reviewer. 24th International Conference on Rewriting
+Techniques and Applications (RTA 2013). Reviewed: 1 paper.
+
+\item External Reviewer. 19th International Conference on Foundations 
+  of Software Science and Computation Structures (FoSSaCS 2016). Reviewed: 1 paper.
+
+\item External Reviewer. 32nd International Conference on Logic Programming (ICLP 2016). Reviewed: 1 paper.
+
+
 \end{itemize}
 
+%% \section*{References}
+
+%% \begin{itemize}
+%% \item Aaron Stump, Advisor.
+  
+%% Professor, Department of Computer Science.
+
+%% University of Iowa. 
+
+%% aaron-stump@uiowa.edu
+
+%% \item Ekaterina Komendantskaya.                 
+
+%%   Associate Professor, School of Mathematical and Computer Sciences.
+
+%%   Heriot-Watt University.  
+  
+%%   komendantskaya@gmail.com
+  
+  
+%\end{itemize}
 % \section*{Additional Skills}
 % Haskell (intermediate, since 2012), C (intermediate, since 2006), Java (intermediate, since 2007). 
 %
