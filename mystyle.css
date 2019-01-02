@@ -1,0 +1,50 @@
+body {
+  background-color: #dddddd ;
+  padding: 60px ;
+  font-size: 22px;
+  font-family: Iowan;
+  color: #333333 ;
+}
+
+span#name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+span#title {
+  font-size: 20px;
+}
+span#department {
+  font-size: 20px;
+}
+div#header {
+  width: 930px;
+  height: 100px ;
+}
+
+div#name-area {
+  float: left; 
+}
+
+div#contact-info {
+  float: right ;
+}
+
+ul{
+  font-size: 20px;
+}
+
+ul.jump-bar {
+ margin-top: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px;;
+ margin-right: 0px;;
+ padding-left: 0px ;
+ padding-right: 0px ;
+}
+
+
+ul.jump-bar li {
+ display: inline ;
+ font-weight: bold ;
+}
