@@ -4,9 +4,18 @@
 <head>
   <title>Frank Fu </title>
   <link rel="stylesheet" href="mystyle.css" />
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript"
+          src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+  <script type="text/javascript" src="myjs.js">
+  </script>
 </head>
 
 <body>
+  <a name="Top"></a>
   <div id="header">
     <div id="name-area">
       <span id="name">Frank(Peng) Fu</span> <br />
@@ -40,7 +49,7 @@
   <li><a href="#notes">Notes</a></li>
   <li class="nbsp">&nbsp;</li>
 
-  <li><a href="#blog">Blog</a></li>
+  <li><a href="http://www.steprow.wordpress.com">Blog</a></li>
     <li class="nbsp">&nbsp;</li>
 
   </ul>
@@ -59,34 +68,54 @@
   </div>
 
   <h3>Education</h3>
+  <ul>
   <li> Ph.D. in Computer Science, the University of Iowa, 2014 </li> 
   <li> B.Eng. in Computer Science, Huazhong University of Science and Technology, 2009 </li> 
-
+  </ul>
 
 <hr />
 
 
 <a name="papers"></a>
-<h3>Papers</h3>
+
+<h3><a href="#Top">Papers</a> </h3>
 <ul>
-  <li><p>Proof Relevant Corecursive Resolution.</p>
-    <p>Peng Fu, Ekaterina Komendantskaya, Tom Schrijvers, Andrew Pond. International Symposium on Functional and Logic Programming, FLOPS 2016.</p></li>
-  <li><p>A Type-Theoretic Approach to Resolution.</p>
-    <p>Peng Fu, Ekaterina Komendantskaya. International Symposium on Logic-Based Program Synthesis and Transformation, LOPSTR 2015.</p></li>
-  <li><p>Self Types for Dependently Typed Lambda Encodings.</p>
-    <p>Peng Fu, Aaron Stump. Joint 25th International Conference on Rewriting Techniques and Applications and 12th International Conference on Typed Lambda Calculi and Applications, RTA-TLCA 2014.</p></li>
 
-  <li><p>Operational Semantics of Resolution and Productivity in Horn Clause Logic.</p>
-    <p>Peng Fu, Ekaterina Komendantskaya. Formal Aspect of Computing, Journal Version of LOPSTR 2015, to appear.</p></li>
-  <li><p>Efficiency of Lambda-Encodings in Total Type Theory.</p>
-    <p>Aaron Stump, Peng Fu. Journal of Functional Programming, 2016.</p></li>
+  <li><p><em> Dependently typed folds for nested data types.</em>
+    Peng Fu, Peter Selinger, 2018 </p></li>
 
-  <li><p><span> Equational Reasoning about Programs with General Recursion and Call-by-value Semantics</span>.</p>
-    <p>Garrin Kimmell, Aaron Stump, Harley Eades III, Peng Fu, Tim Sheard, Stephanie Weirich, Chris Casinghino, Vilhelm Sjoberg, Nathan Collins, Ki Yung Ahn. Programming Languages meets Program Verification, PLPV 2012.</p></li>
-  <li><p><span> Irrelevance, Heterogeneous Equality, and Call-by-value Dependent Type Systems. </span></p>
-    <p>Vilhelm Sjoberg,Chris Casinghino, Ki Yung Ahn, Nathan Collins, Harley Eades III, Peng Fu, Garrin Kimmell, Tim Sheard, Aaron Stump, Stephanie Weirich. Mathematically Structured Functional Programming, MSFP 2012.</p></li>
-  <li><p>A Framework for Internalizing Relations into Type Theory.</p>
-    <p>Peng Fu, Aaron Stump, Jeff Vaughan. International Workshop on Proof-Search in Axiomatic Theories and Type Theories, PSATTT 2011.</p></li>
+  <li><p><em> A Type Checking Algorithm for Higher-rank, Impredicative and Second-order Types.</em>
+    Peng Fu, 2017 </p></li>
+  
+  <li><p><em> Representing Nonterminating Rewriting with $\mathbf{F}^2_{\mu}$.</em>
+    Peng Fu, 2017 </p></li>
+
+
+  <li><p><em>Efficiency of Lambda-Encodings in Total Type Theory.</em>
+    Aaron Stump, Peng Fu. Journal of Functional Programming, 2016.</p></li>
+
+  <li><p><em>Proof Relevant Corecursive Resolution.</em>
+    Peng Fu, Ekaterina Komendantskaya, Tom Schrijvers, Andrew Pond.
+      International Symposium on Functional and Logic Programming, 2016.</p></li>
+
+  <li><p><em>Operational Semantics of Resolution and Productivity in Horn Clause Logic.</em>
+    Peng Fu, Ekaterina Komendantskaya. Formal Aspect of Computing, 2016 </p></li>
+
+  <li><p><em>A Type-Theoretic Approach to Resolution.</em>
+    Peng Fu, Ekaterina Komendantskaya. International Symposium on Logic-Based Program Synthesis and Transformation, 2015.</p></li>
+  
+  <li><p><em>Self Types for Dependently Typed Lambda Encodings.</em>
+    Peng Fu, Aaron Stump. Joint 25th International Conference on Rewriting Techniques and Applications and 12th International Conference on Typed Lambda Calculi and Applications, 2014.</p></li>
+
+
+  <li><p><em> Equational Reasoning about Programs with General Recursion and Call-by-value Semantics.</em>
+    Garrin Kimmell, Aaron Stump, Harley Eades III, Peng Fu, Tim Sheard, Stephanie Weirich, Chris Casinghino, Vilhelm Sjoberg, Nathan Collins, Ki Yung Ahn. Programming Languages meets Program Verification, 2012.</p></li>
+  
+  <li><p><em> Irrelevance, Heterogeneous Equality, and Call-by-value Dependent Type Systems. </em> Vilhelm Sjoberg,Chris Casinghino, Ki Yung Ahn, Nathan Collins, Harley Eades III, Peng Fu, Garrin Kimmell, Tim Sheard, Aaron Stump, Stephanie Weirich. Mathematically Structured Functional Programming, 2012.</p>
+  </li>
+  
+  <li><p><em>A Framework for Internalizing Relations into Type Theory.</em>
+    Peng Fu, Aaron Stump, Jeff Vaughan. International Workshop on Proof-Search in Axiomatic Theories and Type Theories, 2011.</p></li>
 
 </ul>
 
@@ -95,16 +124,78 @@
 <hr />
 
 <a name="projects"></a>
-<h3>Projects</h3>
+<h3><a href="#Top">Projects</a> </h3>
 
 
 <hr />
+
 <a name="talks"></a>
+<h3><a href="#Top">Talks</a> </h3>
 
-<h3>Talks</h3>
+<ul>
+  <li><p><em>Encoding Data in Lambda Calculus: An Introduction</em>
+      September 26, 2017, Atlantic Category Seminar, Dalhousie University, Canada.
+      [<a href="../../document/talks/lam.pdf">Slides</a>]</p></li>
+
+  <li><p><em>Proof Relevant Corecursive Resolution</em>
+      June 22, 2016, The Scottish Programming Languages Seminar, Heriot-Watt University, Edinburgh, UK. [<a href="../../document/talks/spls-2016.pdf">Slides</a>]</p></li>
+
+  <li><p><em>A Type-Theoretic Approach to Structural Resolution</em>
+      July 13, 2015, LOPSTR, Siena, Italy. [<a href="../../document/talks/lopstr-2015.pdf">Slides</a>]</p></li>
+
+  <li><p><em>Self Types for Dependently Typed Lambda Encodings</em>
+      July 15, 2014, RTA-TLCA, Vienna, Austria. [<a href="../../document/talks/rta-tlca-14.pdf">Slides</a>]</p></li>
+
+  <li><p><em>Lambda Encodings in Type Theory</em>
+      May 2, 2014, Dissertation Defense, Iowa City, Iowa. [<a href="../../document/talks/thesis-talk.pdf">Slides</a>]</p></li>
+
+  <li><p><em>Dependent Lambda Encoding with Self Types</em>
+      September 2013, ACM SIGPLAN Workshop on Dependently-Typed Programming(DTP), Boston, MA. [<a href="../../document/talks/dtp-2013.pdf">Slides</a>]</p></li>
+
+  <li><p><em>A Framework for Internalizing Relations into Type Theory</em>
+      August 2011, PSATTT workshop, Wroclaw. Poland. [<a href="../../document/talks/psattt11-talk.pdf">Slides</a>]</p></li>
+</ul>
 
 
+<hr />
 
+<a name="notes"></a>
+<h3><a href="#Top">Notes</a> </h3>
+
+<ul id="notes">
+  <li><p> Reducibility Method for Call-by-Value Simply Typed Lambda Calculus, March 2010. [<a href="../../document/notes/reducibility-stlc.pdf">pdf</a>]</p></li>
+
+  <li><p> Subtyping Relation as Reducibility Set Inclusion, March 2010. [<a href="../../document/notes/subtyping-st.pdf">pdf</a>]</p></li>
+
+  <li><p> Reducibility Method for Call-by-Value System F, June 2010. [<a href="../../document/notes/system-f-iii.pdf">pdf</a>]</p></li>
+
+  <li><p> Type Preservation for System F a la Curry, 2011. [<a href="../../document/notes/systemf.pdf">pdf</a>]</p></li>
+
+  <li><p> Confluence for Local Lambda-Mu Calculus, July 2013. [<a href="../../document/notes/conf-lambda-mu-II.pdf">pdf</a>]</p>
+
+  <li><p> Type Preservation for Curry Style F-omega, July 2013. [<a href="../../document/notes/fomega-presv.pdf">pdf</a>]</p>
+    <p><strong>Remarks</strong>: This note straightforwardly extends the method(by Barendregt) of proving type preservation for Curry style system F (N004) to F-omega</p></li>
+
+  <li><p> Lambda Encoding, Types and Confluence. [<a href="../../document/notes/comp-exam.pdf">pdf</a>]</p>
+    <p>Peng Fu. May 2013.</p>
+    <p><strong>Remarks</strong>: This is my comprehensive exam paper.</p></li>
+  <li><p> Lambda Encoding with Comprehension. [<a href="../../document/notes/comprehension.pdf">pdf</a>]</p>
+    <p>Peng Fu. Oct 2013.</p>
+    
+    <p><strong>Remarks</strong>: A Chapter from my dissertation.</p></li>
+
+  <li><p> Dependently-typed Programming with Scott Encoding. Peng Fu, Aaron Stump. 2013. [<a href="../../document/papers/scott-dep.pdf">pdf</a>]</p></li>
+  
+  <li><p>Type Class and Logic Programming with Term Matching, Nov 2014. [<a href="../../document/notes/tm.pdf">pdf</a>]</p>
+    <p><strong>Remarks</strong>: This note shows how one can have a notion of <em>logic programming</em> based solely on term matching.</p></li>
+  
+  <li><p>Realizability at work, June, 2017. [<a href="../../document/notes/realization.pdf">pdf</a>]</p>
+    <p><strong>Remarks</strong>: This notes shows examples of realization by termination and realization by shape index.</p></li>
+</ul>
+
+<script type="text/javascript">
+  reverse("notes");
+</script>
 
 </body>
 
