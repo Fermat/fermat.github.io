@@ -133,8 +133,8 @@
     Peng Fu, Dissertation, 2014.
       [<a href="./document/papers/.pdf">pdf</a>]
       </p></li>
-     
-<p><em>Self Types for Dependently Typed Lambda Encodings.</em>
+      <li>
+          <p><em>Self Types for Dependently Typed Lambda Encodings.</em>
     Peng Fu, Aaron Stump. Joint 25th International Conference on Rewriting Techniques and Applications and 12th International Conference on Typed Lambda Calculi and Applications, 2014.
       [<a href="./document/papers/rta-tlca.pdf">pdf</a>]
       </p></li>
@@ -162,7 +162,7 @@
 
 <ul>
     <li> Dependently typed folds for nested data types. 
-        [<a href = "https://github.com/Fermat/dependent-fold"> Projects link</a>]
+        [<a href = "https://github.com/Fermat/dependent-fold"> Project link</a>]
         [<a href = "https://arxiv.org/abs/1806.05230"> Paper documention in arXiv</a>]</br>
       <p> <strong>Summary:</strong> 
         This project shows how to program with nested data types
@@ -178,13 +178,43 @@
     </li> 
 
     <li> A Type Checking Algorithm for Higher-rank, Impredicative and Second-order Types.
-        [<a href = "https://github.com/Fermat/higher-rank"> Projects link</a>]
+        [<a href = "https://github.com/Fermat/higher-rank"> Project link</a>]
         [<a href = "https://arxiv.org/abs/1711.04718"> Paper documention in arXiv</a>]</br>
-        <strong>Summary:</strong> 
+     <p>
+     <strong>Summary:</strong> 
+     Hindley-Milner type checking algorithm is widely used to implment mordern type checker. 
+     However, Hindley-Milner algorithm does not support higher-rank types. In presence of
+     higher-rank, impredicative and higher-order types, it is often needed to 
+     annotate a program with types. 
+
+     In this project, we explore a type checking algorithm for higher-rank, impredicative and 
+     second-order types. The algorithm only requires type annotation
+     at the top level, there is no need to annotate types inside a program. Compare to the 
+     popular bidirectional type checking algorithm, our type checking algorithm is based on 
+     resolution, which is a widely used technique in automated theorem proving. The algorithm
+     is one direction,
+     i.e. there is no type infer process, a program will always be checked against a certain type.
+     As a case study, we implement a prototype type checker and 
+     use it to type check some nontrivial algorithms that makes essential use of impredicativity
+     and second-order types, these include Stump's Church-encoded merge-sort, Bird and Patterson's 
+     generalized folds.
+     </p>
     </li> 
 
-   <li> Gottlob: a theorem prover for verifying lambda encoded programs. 
-        <strong>Summary:</strong> 
+   <li> Gottlob: a theorem prover for verifying Scott-encoded programs. 
+        [<a href = "https://github.com/Fermat/gottlob"> Project link</a>]
+        [<a href = "./document/notes/comprehension.pdf"> Documention</a>]</br>
+       <p>
+       <strong>Summary:</strong> 
+       The Gottlob theorem prover implements a version of minimal higher-order logic and an interpretor
+       for a polymorphic function programming language. The functional programs are translated
+       to Scott-encoded lambda terms and the minimal higher-order logic uses comprehension
+       principle to derive induction principle to reason about programs. As a case study, we 
+       use Gottlob to prove the correctness of the natural number division. 
+       It is unusual in the sense that the division algorithm will diverge 
+       when one of the input is zero(<a href = "https://github.com/Fermat/Gottlob/blob/master/tests/div.gf">see here</a>). This contracts the traditional theorem provers where 
+       all functions are requires to be terminating.  
+       </p>
     </li> 
 
 
