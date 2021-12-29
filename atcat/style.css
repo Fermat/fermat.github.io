@@ -68,3 +68,10 @@ a:visited {
     padding: 5px;
     padding-left: 110px;
 }
+
+
+.updated{
+    font-style: normal;
+    font-size: 81%;
+    text-align: left;
+}
