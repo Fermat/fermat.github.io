@@ -69,10 +69,11 @@
     
     <h3>Research</h3>
     <p>
-      Broadly speaking, I am interested in type theories and their applications in
-      programming languages.
-      I am working on the design and implementation of a linear
-      dependently typed system for <a href="#dpq">quantum programming language</a>,
+      My research interests are in type theories and their applications.
+      I enjoy doing research on quantum programming languages
+      and their categorical semantics.
+      I am working on the design and implementation of a version of 
+      <a href="#proto-quipper">Proto-Quipper</a>,
       see a tutorial <a href="#dpq-tutorial">here</a>. <br>
 
       I am also organizing
@@ -80,18 +81,29 @@
     </p>
   </div>
 
-  <h3>Education</h3>
-  <ul>
-  <li> Ph.D. in Computer Science, the University of Iowa, 2014 </li> 
-  <li> B.Eng. in Computer Science, Huazhong University of Science and Technology, 2009 </li> 
-  </ul>
+
   <hr />
 
 <a name="papers"></a>
 
 <h3><a href="#Top">Papers</a> </h3>
 <ul>
-  <a name="dpq"></a>
+  <a name="proto-quipper"></a>
+  <li> 
+    <em>Proto-Quipper with dynamic lifting.</em>
+    
+    <p> Peng Fu, Kohei Kishida, Neil J. Ross, Peter Selinger, manuscript, 2022. [<a href="./document/papers/dynlift.pdf">pdf</a>]
+      [<a href="https://arxiv.org/abs/2204.13041">arXiv</a>]
+  </li>
+  
+  <li> 
+    <em>A biset-enriched categorical model for Proto-Quipper with dynamic lifting.</em>
+    
+    <p> Peng Fu, Kohei Kishida, Neil J. Ross, Peter Selinger, manuscript, 2022. [<a href="./document/papers/dynlift-model.pdf">pdf</a>]
+      [<a href="https://arxiv.org/abs/2204.13039">arXiv</a>]
+  </li>
+
+  
   <li> 
     <em> Linear Dependent Type Theory for Quantum Programming Languages.</em>
      
@@ -113,17 +125,17 @@
   <a name="nested"></a>
   <li>
     <em> Dependently typed folds for nested data types.</em>
-    <p> Peng Fu, Peter Selinger, 2018.
+    <p> Peng Fu, Peter Selinger, manuscript, 2018.
     [<a href="https://arxiv.org/abs/1806.05230">arXiv</a>]</p> </li>
 
   <li><em> A Type Checking Algorithm for Higher-rank, Impredicative and Second-order Types.</em>
-    <p> Peng Fu, 2017. [<a href="https://arxiv.org/abs/1711.04718">arXiv</a>]</p></li>
+    <p> Peng Fu, manuscript, 2017. [<a href="https://arxiv.org/abs/1711.04718">arXiv</a>]</p></li>
     
   
   <a name="rewriting"></a>
   <li>
     <em> Representing Nonterminating Rewriting with $\mathbf{F}^2_{\mu}$.</em>
-    <p> Peng Fu, 2017. [<a href="https://arxiv.org/abs/1706.00746">arXiv</a>]</p></li>
+    <p> Peng Fu, manuscript, 2017. [<a href="https://arxiv.org/abs/1706.00746">arXiv</a>]</p></li>
 
 
   <li><em>Efficiency of Lambda-Encodings in Total Type Theory.</em>
@@ -172,9 +184,6 @@
       </p></li>
 
 </ul>
-
-
-
 <hr />
 
 <a name="projects"></a>
@@ -182,8 +191,8 @@
 
 <ul>
   <li> Dependently typed Proto-Quipper.
-    [<a href = "https://gitlab.com/frank-peng-fu/dpq-remake"> Project link</a>]
-    [<a href = "https://arxiv.org/abs/2005.08396"> Tutorial in arXiv</a>]
+    [<a href = "https://gitlab.com/frank-peng-fu/dpq-remake">Project link</a>]
+    [<a href = "https://arxiv.org/abs/2005.08396">Tutorial in arXiv</a>]
         </br>
       <p> <strong>Summary:</strong> 
         Dependently typed Proto-Quipper is language for programming
@@ -197,8 +206,8 @@
     </li> 
 
     <li> Dependently typed folds for nested data types. 
-        [<a href = "https://github.com/Fermat/dependent-fold"> Project link</a>]
-        [<a href = "https://arxiv.org/abs/1806.05230"> Paper documention in arXiv</a>]</br>
+        [<a href = "https://github.com/Fermat/dependent-fold">Project link</a>]
+        [<a href = "https://arxiv.org/abs/1806.05230">Paper documention in arXiv</a>]</br>
       <p> <strong>Summary:</strong> 
         This project shows how to program with nested data types
         in the total dependently typed language Agda using a new construct called dependently typed
@@ -213,8 +222,8 @@
     </li> 
 
     <li> A Type Checking Algorithm for Higher-rank, Impredicative and Second-order Types.
-        [<a href = "https://github.com/Fermat/higher-rank"> Project link</a>]
-        [<a href = "https://arxiv.org/abs/1711.04718"> Paper documention in arXiv</a>]</br>
+        [<a href = "https://github.com/Fermat/higher-rank">Project link</a>]
+        [<a href = "https://arxiv.org/abs/1711.04718">Paper documention in arXiv</a>]</br>
      <p>
      <strong>Summary:</strong> 
      Hindley-Milner type checking algorithm is widely used to implment mordern type checker. 
@@ -237,8 +246,8 @@
     </li> 
 
    <li> Gottlob: a theorem prover for verifying Scott-encoded programs. 
-        [<a href = "https://github.com/Fermat/gottlob"> Project link</a>]
-        [<a href = "./document/notes/comprehension.pdf"> Documention</a>]</br>
+        [<a href = "https://github.com/Fermat/gottlob">Project link</a>]
+        [<a href = "./document/notes/comprehension.pdf">Documention</a>]</br>
        <p>
        <strong>Summary:</strong> 
        The Gottlob theorem prover implements a version of minimal higher-order logic and an interpretor
