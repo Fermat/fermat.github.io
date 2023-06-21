@@ -57,7 +57,7 @@ a:visited {
   color: #586e75;
 }
 
-.profile {
+img.profile {
     float: right;
     margin: 0 0 0.5em 0.5em;
     max-width: 30%;
