@@ -6,3 +6,12 @@ function reverse(its){
     while (i--)
         ns.appendChild(ns.childNodes[i]);
 }
+
+// Redirect to CSE website from other server. 
+var currentLocation = window.location;
+if (currentLocation.hostname != "https://cse.sc.edu/~pfu")
+{
+    window.location.replace("https://cse.sc.edu/~pfu");
+}
+
+
