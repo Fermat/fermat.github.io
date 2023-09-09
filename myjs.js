@@ -9,7 +9,7 @@ function reverse(its){
 
 // Redirect to CSE website from other server. 
 var currentLocation = window.location;
-if (currentLocation.hostname != "https://cse.sc.edu/~pfu")
+if (currentLocation.hostname == "https://fermat.github.io")
 {
     window.location.replace("https://cse.sc.edu/~pfu");
 }
